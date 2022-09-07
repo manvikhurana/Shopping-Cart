@@ -1,0 +1,20 @@
+a = "Leather belt" 
+p1 = 1100 
+gst1 = 18 /100
+q1 =1
+b= "Umbrella"
+p2 = 900 
+gst2 = 12/100
+q2 = 2
+c= "Cigarette" 
+p3 = 200 
+gst3 = 28/100
+q3 = 3
+d= "Honey" 
+p4 =100 
+gst4 =0 
+q4 = 4
+amount =(p1+gst1)  + (p2*q2+gst2)  + (p3*q3+gst3)  + (p4*q4)
+discount =(p1*5/100 + p2*5/100)
+total_amount = (amount - discount)
+print (total_amount)
